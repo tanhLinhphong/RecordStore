@@ -9,11 +9,10 @@ body{
     font-family: var(--sm-font);
 }
 
-/* button */
-.bg-primary{
-    background-color: var(--pink)!important;
-}
 
+.bg-primary{
+    background-color: red!important;
+}
 .btn:not(.nav-btns button){
     background-color: #ada9a9;
     color: rgb(85, 85, 85);
@@ -27,12 +26,10 @@ body{
     border-color: var(--pink);
 }
 
-/* text color */
 .text-primary{
     color: var(--pink)!important;
 }
 
-/* navbar */
 .navbar{
     -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
             box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
@@ -51,7 +48,6 @@ body{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
 
-/* header */
 #header{
     background: url(../img/pexels-photo-11026512.webp) top/cover no-repeat;
 }
@@ -66,7 +62,6 @@ body{
     border-color: var(--pink)!important;
 }
 
-/* title */
 .title h2::before{
     position: absolute;
     content: "";
@@ -80,7 +75,7 @@ body{
             transform: translateY(-50%);
 }
 
-/* collection */
+
 .active-filter-btn{
     background-color: var(--pink)!important;
     color: #fff!important;
@@ -89,15 +84,15 @@ body{
 .filter-button-group .btn:hover{
     color: #fff!important;
 }
-.collection-img span{
+
+.product-img span{
     top: 20px;
     right: 20px;
     width: 46px;
     height: 46px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 
-/* special */
 .special-img span{
     top: 20px;
     right: 20px;
@@ -116,7 +111,6 @@ body{
             transform: scale(1.2);
 }
 
-/* offers */
 #offers{
     background: url(../img/pexels-photo-3391925.jpeg) center/cover no-repeat;
 }
@@ -134,40 +128,11 @@ body{
     border-color: transparent!important;
 }
 
-/* about */
 #about{
     background-color: rgba(179, 179, 179, 0.05);
 }
 
-/* newsletter */
-#newsletter{
-    background-color: rgba(179, 179, 179, 0.05);
-}
-#newsletter p{
-    max-width: 600px;
-}
-#newsletter .input-group{
-    max-width: 500px;
-}
-#newsletter .form-control{
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-#newsletter .btn{
-    background-color: var(--pink);
-    color: #fff;
-    border-color: var(--pink);
-}
-#newsletter .btn:hover{
-    background-color: #000;
-    border-color: #000;
-}
 
-/* footer */
-footer .brand{
-    font-family: var(--lg-font);
-    letter-spacing: 2px;
-}
 footer a{
     -webkit-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
