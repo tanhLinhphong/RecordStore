@@ -34,9 +34,7 @@ body{
     -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
             box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
 }
-.navbar-brand img{
-    width: 30px;
-}
+
 .navbar-brand span{
     letter-spacing: 2px;
     font-family: var(--lg-font);
@@ -48,21 +46,10 @@ body{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
 
-#header{
-    background: url(../img/pexels-photo-11026512.webp) top/cover no-repeat;
-}
-.carousel-inner h1{
-    font-size: 60px;
-    font-family: var(--lg-font);
-}
-.carousel-item .btn{
-    border-color: #fff!important;
-}
-.carousel-item .btn:hover{
-    border-color: var(--pink)!important;
-}
 
-.title h2::before{
+
+
+ .title h2::before{
     position: absolute;
     content: "";
     width: 4px;
@@ -73,7 +60,7 @@ body{
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-}
+} 
 
 
 .active-filter-btn{
@@ -129,7 +116,7 @@ body{
 }
 
 #about{
-    background-color: rgba(179, 179, 179, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 
@@ -147,4 +134,7 @@ footer a:hover{
     .nav-item{
         border-bottom: none;
     }
+}
+.carousel-inner .carousel-item img{
+    width: 100%;
 }
